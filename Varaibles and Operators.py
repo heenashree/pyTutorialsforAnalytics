@@ -40,3 +40,6 @@ print(k2*2) # print a string 2 times and this only works with strings and not nu
 print('10' *2)
 print('C:\kpt\nbc')  # new line \n
 print('C:\kpt\\nbc')
+print(type(1))
+print(type(int))
+print(type(type(int)))

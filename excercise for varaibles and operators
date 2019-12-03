@@ -4,3 +4,10 @@
 4. What error will you get when you do 7/0
 5. What are the error types when you perform operations on variables? Name atleast 3
 6. How do you convert int to str
+7. 5//3
+8. print 'no' 100 times
+9. What is the output of below print statements
+print(type(1))
+print(type(int))
+print(type(type(int)))
+
