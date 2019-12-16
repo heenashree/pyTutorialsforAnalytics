@@ -1,44 +1,32 @@
-'''
-l = ['A','B','C','D','E']
-j = [1,2,3,4,5]
 
-print (zip(l,j))
+from time import sleep
+print("Few operations on Dictionary\n")
+print("###Update, Append, Access the Dictionary####\n")
 
-for k, v in zip(l,j):
-    print (k,v)
+dict_1 = {'Name':'Heenashree', 'Practice': 'CnD', 'Skills':'Python'}
+dict_1['Exp'] = 8.5
 
-test = {k:v for k,v in zip(j,l)}
-print(test)
-'''
+dict_1.update({"Skills" : "Python and DevOps"})
+print(dict_1)
+dict_1.update(Skills='test')
+dict_1['Name'] = 'Anita'
 
-list1 = [1,1,2,1,3,1,5,6,7,4,5]
-list2 = set(list1)
-print(list2)
-list3 = tuple(list1)
-print(list3)
-print(type(list3))  # --> tuple
-print(type(list2))  # --> set
+print(dict_1)
 
-print(list3[0])
-#list3[0] = 10
-list1[0]= 10
-print(list1)
-#list3[0] = 10 # because list3 is a tuple --> this will not work
-list3 = list(list3)
-print(type(list3))
-list3[0] = 10
-print(list3)
-list3 = tuple(list3)
-print(type(list3))
-k = ([1,2,34], 4,5,6,'hello')
-print(k)
-k[0][0]=1111
-print(k)
+print(dict_1.get('Skills'))
+print(dict_1['Skills'])
+print(dict_1.get('Certs'))
+#print(dict_1['Certs']) #Error
 
 
+print("Dictionry deletion")
+dict_1.pop('Skills') #pop a specific element
+print(dict_1)
 
+del dict_1['Name']
+print(dict_1)
 
+#del dict_1
 
-
-
-
+print(dict_1.keys())
+print(dict_1.values())
