@@ -1,4 +1,9 @@
 array =[ 'a', 'ab', '1','2','3','4']
+n = [1,2,3,4]
+n.append([5,6])
+n.extend([7,8])
+print("len", len(n))
+print('n', n)
 for i in array:
     print(i)
 

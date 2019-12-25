@@ -6,6 +6,11 @@ try:
     #list_1[7]
     #print(x)
     print("this")
+    try:
+            print("test")
+    except:
+            print("none")
+
 except ZeroDivisionError:
     print("This is errored out for zero division error")
 except KeyError:
