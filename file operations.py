@@ -1,6 +1,3 @@
-import json
-import yaml
-
 testdict = 'hello 2020'
 
 ## Create files in python
