@@ -42,4 +42,13 @@ print('C:\kpt\nbc')  # new line \n
 print('C:\kpt\\nbc')
 print(type(1))
 print(type(int))
-print(type(type(int)))
+a,b=5,6  #assignment operator
+print(a<b) # comparison operator
+x=2
+x=x+2 # x+=2
+x+=2 #assignment operator
+print(x)
+print(a<4 or b>5) #logical operators
+Y = True
+Z = not Y #not logical operator
+
