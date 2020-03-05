@@ -1,4 +1,7 @@
+
+
 import yaml
+
 with open('templates\yamldata.yml','r') as f:
     list_data = yaml.load(f, Loader=yaml.FullLoader)
 print(list_data)
@@ -13,7 +16,6 @@ dict_file = [{'sports' : ['soccer', 'football', 'basketball', 'cricket', 'hockey
 
 with open('templates\yamldata1.yml', 'a') as f:
     yaml.dump(dict_file, f)
-
 
 ## remove the file
 import os

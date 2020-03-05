@@ -10,5 +10,6 @@
 print(type(1))
 print(type(int))
 print(type(type(int)))
+10. convert 0b1110001 to number
 
 

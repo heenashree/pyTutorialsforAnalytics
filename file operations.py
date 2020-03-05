@@ -10,6 +10,7 @@ f.close()
 testyaml = 'Hello there\nHow is it going'
 with open('templates\dummy2.yml', 'w') as file:
     file.write(testyaml)
+
     
 '''
 'r'	Open a file for reading. (default)
